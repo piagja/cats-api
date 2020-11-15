@@ -13,6 +13,7 @@ function App() {
       const response = await fetch(URL)
       const cats = await response.json()
       setCats(cats)
+      console.log(cats)
     } catch (error) {
       setIsLoading(false)
       console.log(error)
@@ -33,10 +34,14 @@ function App() {
         <h1>Cats!</h1>
         <button type='submit' onClick={() => window.location.reload() }>Another Cat Please!</button>
         {cats.map(cat => {
-          const { url, id } = cat
+          const { url, id, height, width } = cat
           return (
             <div className="App">
               <img src={url} alt={id} />
+              <p class='wantDownload'>Wanna Download? Right mouse cursor > Save Image as ...</p>
+              <p class='dimensions'>~ Dimensions ~</p>
+              <h3>Height: {height}px</h3>
+              <h3>Width: {width}px</h3>
             </div>
           )
         })}        
