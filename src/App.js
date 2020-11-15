@@ -19,7 +19,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>imagem</h1>        
+      {cats.map(cat => {
+        const { url, id } = cat
+        return (
+          <img src={url} alt={id} />
+        )
+      })}        
       <h1>infos</h1>
     </div>
   );
