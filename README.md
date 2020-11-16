@@ -24,6 +24,6 @@
 > enjoy!
 
 ### Picture
-![screenshot-example](https://imgur.com/eP4IOsk "Screenshot from Application")
+![screenshot-example](https://imgur.com/eP4IOsk.jpg "Screenshot from Application")
 
 API used from [TheCatAPI](https://docs.thecatapi.com/)
