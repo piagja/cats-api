@@ -14,4 +14,7 @@
 
 > Reload the cat!
 
+*Image*
+[Print from Application](https://imgur.com/eP4IOsk)
+
 API used from [TheCatAPI](https://docs.thecatapi.com/)
