@@ -14,7 +14,7 @@
 
 > Reload the cat!
 
-** How to use it? **
+**How to use it?**
 > Clone;
 
 > run 'npm install'
