@@ -14,7 +14,16 @@
 
 > Reload the cat!
 
-*Image*
-[Print from Application](https://imgur.com/eP4IOsk)
+** How to use it? **
+> Clone;
+
+> run 'npm install'
+
+> run 'npm start'
+
+> enjoy!
+
+### Pictures
+![screenshot-example](https://imgur.com/eP4IOsk "Screenshot from Application")
 
 API used from [TheCatAPI](https://docs.thecatapi.com/)
