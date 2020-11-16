@@ -1,4 +1,4 @@
-# Cats Random Image
+# Simple Cat Random Image
 
 **This repository is only for begginer training purpose.**
 
